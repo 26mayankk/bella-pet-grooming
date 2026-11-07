@@ -848,18 +848,47 @@
     @media (max-width: 760px) { .appointment-form-wrap, .faq-layout { grid-template-columns: 1fr; } .appointment-form-wrap { gap: 18px; } }
     @media (max-width: 520px) { .appointment-form { grid-template-columns: 1fr; } .form-field.full, .form-submit-row, .form-status, .form-privacy { grid-column: auto; } .form-submit-row .button { width: 100%; justify-content: center; } }
 
-</style><meta content="summary" name="twitter:card"/><script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Bella Pet Grooming",
-    "areaServed": { "@type": "City", "name": "Bhopal" },
-    "telephone": "+91-8839140120",
-    "sameAs": ["https://www.instagram.com/bella.petgrooming/"],
-    "description": "Doorstep grooming for dogs and cats in Bhopal.",
-     "contactPoint": { "@type": "ContactPoint", "telephone": "+91-8839140120", "contactType": "appointments", "availableLanguage": ["English", "Hindi"] }
-  }
-  </script></head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://bellapetgrooming.in/#business",
+      "name": "Bella Pet Grooming",
+      "url": "https://bellapetgrooming.in/",
+      "image": "https://bellapetgrooming.in/assets/images/image-13403c5d11a7ceec.webp",
+      "telephone": "+91-8839140120",
+      "sameAs": [
+        "https://www.instagram.com/bella.petgrooming/"
+      ],
+      "description": "Bella Pet Grooming provides doorstep grooming services for dogs and cats in Bhopal.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-8839140120",
+        "contactType": "appointments",
+        "availableLanguage": ["English", "Hindi"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://bellapetgrooming.in/#grooming-service",
+      "name": "Doorstep Dog and Cat Grooming",
+      "serviceType": "Pet Grooming",
+      "provider": {
+        "@id": "https://bellapetgrooming.in/#business"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Bhopal"
+      },
+      "url": "https://bellapetgrooming.in/",
+      "description": "At-home grooming services for dogs and cats across Bhopal."
+    }
+  ]
+}
+</script>
+</head>
 <body class="no-js" id="top">
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <div class="topline">Doorstep pet grooming <span>·</span> Dogs &amp; cats <span>·</span> Bhopal only</div>
