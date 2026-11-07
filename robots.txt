@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# After connecting your custom domain, add this line with the real URL:
-# Sitemap: https://YOUR-CUSTOM-DOMAIN/sitemap.xml
+Sitemap: https://bellapetgrooming.in/sitemap.xml
